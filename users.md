@@ -3,15 +3,15 @@
 
 |  What | command  |
 |---|---|
-|  useradd <username> | Create new user  |
-|  groupadd <groupname> | Create new group  |
-|  usermod -g <group name> <username> | Set  group as the account's primary group  |
-|  usermod -aG <group name> <username>  | Set  group as the account's supplementary group |
-|  groupdel <groupname> | Delete group  |
-|  passwd <user>  | Set password for a user  |
-|  passwd -S <user> | Check if account is locked  |
-|  passwd -u <user> |  Unlock the account |
-|  usermod -U  |  Unlock the user's password |
+|  `useradd <username>` | Create new user  |
+|  `groupadd <groupname>` | Create new group  |
+|  `usermod -g <group name> <username>` | Set  group as the account's primary group  |
+|  `usermod -aG <group name> <username>`  | Set  group as the account's supplementary group |
+|  `groupdel <groupname>` | Delete group  |
+|  `passwd <user>`  | Set password for a user  |
+|  `passwd -S <user>` | Check if account is locked  |
+|  `passwd -u <user>` |  Unlock the account |
+|  `usermod -U <user>`  |  Unlock the user's password |
 
 ## Troubleshooting
 1. Check if an account is locked
