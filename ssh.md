@@ -1,5 +1,13 @@
 # SSH
 
+## Login passwordless
+
+It always made me crazy how to login using crypto keys and where to store them. Public or private? Without digging in there is a simple commands to remember. 
+
+First command is to generate a pair of keys. The command is `ssh-keygen` and press everywhere enter. 
+
+Next step is to upload your keys to a remote server. If you still think which key are uploading the rule is simple - public keys are public which means everyone can see it, but it is useless without private key, which in turn is always secret. The command is `ssh-copy-id <server>`. This command uploads your public key to the remote machine. 
+
 ''
 *[cloud_user@server1 ~]$ ssh-keygen*
 Generating public/private rsa key pair.
