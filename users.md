@@ -12,6 +12,8 @@
 |  `passwd -S <user>` | Check if account is locked  |
 |  `passwd -u <user>` |  Unlock the account |
 |  `usermod -U <user>`  |  Unlock the user's password |
+|  `userdel -r <user>`  |  Delete a user. NOTICE! Without flag `-r` system does not delete a home folder |
+|  `sudo su - <user>`  | evelate privilage as the user |
 
 ## Troubleshooting
 1. Check if an account is locked
@@ -30,3 +32,7 @@ To unlock the password:
 
 To unlock user account:
     usermod -U <username>
+
+If a user has no password set, you cannot unlock a password. You need to set a new password and then unlock.
+
+2. Check If a user is a sudoer
